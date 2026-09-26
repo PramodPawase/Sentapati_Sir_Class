@@ -41,7 +41,11 @@ if st.button('say hello'):
 else:
     st.write('Goodby')
 
+
+# header
+
+st.header("_Streamlit_ is :blue[cool] :sunglasses:")
     
-
-
+st.header('This is header2',divider='gray')
+st.header('This header3',divider='red')
 
