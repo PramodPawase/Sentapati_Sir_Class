@@ -1,0 +1,331 @@
+==== 28th 
+chatgpt ( llm) -- generate the content 
+vs 
+jev ai 
+type safe ai launch -- classify does this sentence trust or +ve or -ve 
+what ever llm mode gnerate responese 
+jev will prvide confidence score 
+
+tickett 
+	urgnency -- 95% ( trouble shoot) 
+	urgen - 45% ( 
+	
+jev find the tre 
+jev model build on top of ml classification algorithm 
+jev has lucn 
+ml is backbone for lot of stuff 
+
+== 
+lambda function 
+filter
+map 
+reduce 
+
+module creation 
+
+eda which is foundat for machien learning 
+ If eda & stats are parent of machine learning 
+
+filter 
+map 
+reduce 
+
+filter using function vs filter using lambda 
+map using function vs map lambda 
+reduce using function vs reduce lambda 
+
+=== oops ( 4day) 
+1- class 
+		inbuild class
+		user define class 
+2- method 
+		special method 
+		user define method 
+3- object 
+		varaible 
+4- encapsulation
+		variable -->	instance variable, class variable == static variable 
+		method --> instance method , class method, static method 
+5- inheritence 
+		single level 
+		multipl level 
+		multiple 
+		hybrid 
+		constructor in inheritece 
+		mro (method resolution order) 
+		super function in inheritence 
+6- polymophism 
+		duck typing 
+		operator overloading -- magic methods 
+		method overloading 
+		method overriding 
+		
+7- abstaraction 
+		abstract class 
+		abstract method 
+
+iterator 
+generator 
+exceptionhandlin
+sql - python 
+mutlithreadig 
+
+=== EDA & STATS FOR MACHINE LEARNING 
+EDA ( explarator data anlaysis ) 
+
+predictive model & which domain are largely these model 
+
+flight -- confirn -- predictive model 
+	cuz of this feature ircts -- raise theri revenu 
+	15yr back  -- predictionve sytem 
+	ml algoritym -- it implement 
+	
+jave 50yr -- why they have creeat either	
+		all ml algorithm 
+		
+llm + jev + rag 
+
+work with document 
+when llm model genere some resspone 
+wher correct or not ( classfication ) 
+
+== bsnl 
+
+bsnl market -- employ chrn -- 
+if you have prediction model early if model predton next month 1l employ about to quite 
+	will you try to retention those customer 
+	
+day heavy cyclone in city -- new aleter to fisher 
+
+amazon -- when you buy laptop ( ml mdoe recomman buys creen, mouse, wire, ) 
+	ml modle recomans 
+
+baning domain -- custoerm who down 5month 
+to predict default customer fro the future data 
+
+product -- how much rs price tag you have to keep ontop of produce 
+	stats, compare p-value , confidence , t-test 
+	 
+	 
+	 2026 -- sept  2027 
+	 
+bmw car compnay mansure 1l cars 
+2027 dec -- 30k car sold 
+stock also gone  
+compnay - 3yr ( name downstandar d) 
+
+ml prediction is everywhere requrire for forecasting 
+
+ml model based on past data -- model predic tthe future 
+
+2027 -- 25k car 
+20k card -- 30k car sold 
+
+ml -- nlp -- rnn -- llm 
+ann - cnn 
+Why we need to study ml & real time where we use this ? 
+
+------
+EDA TECHNIQUE -->
+------
+1- variable identification 
+2- univariate anlaysis 
+3- bivariate analysis 
+4- outlier 
+5- missing value treatment 
+6- imputation also called transfomer 
+7- variable createion 
+
+how eda technique is connection to machine 
+
+3-4 weeks not much code in mahcine 
+technical theory | master in ml 3 week -if you follow me 
+
+=== 29th  
+
+next 3-4 weeks 
+
+eda technique 
+stats for ml 
+machine learning 
+	later qutumn ml 
+	jev ai 
+	aws, azur, gcp, databrick, spark - mlib 
+		same concept implemetn 
+---
+EDA technqiue 
+---		
+1- variable identification 
+2- univariate anlaysis 
+3- bivariate analysis 
+4- outlier 
+5- missing value treatment 
+6- imputation also called transfomer 
+7- variable createion 
+
+----
+1- Variable identification -->
+	Indepdent variable = non target variable == non predictive variable == x1, x2, x3
+	dependetn variable = target variable == predictive variable = y 
+	
+	
+i will give small example 
+
+family -- 4 member -- 4 variable 
+
+	father - govt emply ( house lona, car loan )  	-- depndent variable -- y 
+	mom -- house wife -- independent variable -- x1 
+	son -- 3rd grade -- iv -- x2 
+	daugher - 4th grade -- iv -- x3 
+	
+can i create small math equation 
+	y = x1 + x2 + x3 
+if i conver this into ml terms 
+		y = m1x1 + m2 x2 + m3x3  ( multiple linear regression algorithm) 
+	
+
+we will build ml model 
+
+	supervised learning == structure data = labeld data 
+			REGRESSION 
+			CLASSIFICATION 
+	unsupervised learning == unstructure data == unlabeld data 
+			CLUSTERING 
+
+I m going to integrate how eda will connect to ml -- please listen damn carefully 
+
+	regression -- if dependent variable(y)  is continuos variable then those regression algorithm 
+		what is mena by continuous variable ? 
+example -->
+	petrol price prediction 
+	gold price prediction 
+	stock price prediction 
+	crypto currenty predication 
+	electric vechicl price 
+	weather forecasting 
+	hose price prediction 
+	land price prediction 
+	course fee fprediction 
+	
+	
+if you face this type of use case implemnt regression algorithm 
+
+1- simple linear regression 
+2- support vector regression 
+3- decision tree regression 
+4- random forest regression 
+5- polynomial regression 
+6- l1 regularization ( lasso regression ) algo 
+7- l2 regularization ( ridge regression) algo  
+8- xgboost regression algo 
+9- lgbm regression algo 
+
+== how eda is integrateion to mlchine regreion model 
+			
+code generateion is not an importan thing now day 
+	2017 -- write code fo all ml model 
+		llm * tools 
+		
+ml - classificaiton -- classify the data 
+if dv is binary or category then implement classification algoriytm 
+
+	example -->
+			win | loose 1|0 
+			high | crash 1|0 
+			hot | cold 1| 0
+			profit| loss  1|0
+			dog | cat 
+			+Ve | -ve 
+			resolve | open 
+			
+in world every problem scenario can be either reg, classifcaiton, clusterint 
+
+1- logistic regression 
+2- svm ( supprt vector machine) 
+3- knn ( k nearest neighbour)
+4- naive bayes (bayes theorem) 
+5- decission tree 
+6- random forest 
+7- xgboost classifier 
+8- lgbm classifier 
+		
+clustering -- no dpednet variable (group)
+
+100 studen write exam 
+score end with 100 ( discrete data )
+
+
+continuous data vs binary data vs discrete data 	
+regression vs classification vs clustering 
+
+when you listen topic for the 1st time -- brain will little confuse 
+same when you review -- it would damn easy 
+
+when you goa 1st time -- you will not travel 
+2nd time -- you will hero 
+
+how eda will integreate to the ml concept -- we are dicussed tha 
+
+clustering algorithm \
+	pca (principal component analysis) 
+	k-means 
+	hierarchical clusterint 
+	
+mlops  - cicd 
+
+1- understand busine 
+2- identify dv is 1st top rule 
+3- you will decide algorithm based on dv 
+
+1- variable identification 
+		IV ( x1, x2---- xn) 
+		DV (y) 
+		non relavant attribute 
+		relavant attribute 
+		
+pass | fail 
+	roll number realtyy matter 
+	height & weight 
+	skin colurs 
+	parent income 
+	
+every time need to train ml model with relvant attribute -- 
+if we train the ml model with ir relavant attribute --- then overfitting problem comes up 
+overfitting -- later 
+if model overfit high error less accuracy 
+if model under fit high error less accuray  
+
+model never predict best accuracy -- front end -- deply not p-- busine not live 
+revenu -- compnay will loss 
+
+model overit -- bmw -- 2027 50k car 
+	10k car -- loss  ( cuz of tyou 
+	
+fde role -- have take end to end 
+
+eda technique -->
+--
+1-- x, y, relvant attribute, irrelavant attribute 
+		regression -- dv is continuou 
+		classification -- dv is binary or categry 
+		clustering -- no dv | data is grouping 
+		
+2- univarite -- plt the graph using 1 variable 
+
+3- bivariate anlaysis -- plt the graph using 2 variable 
+		corealation -- relation amoug 2 attribute is called corelation ( range of the corr is -1 to 1) 
+			+Ve corelation ( 0 -1 ) 
+			-ve corelation (-1 to 0) 
+			no corelation (0) 
+		
+strongly +Ve corelation 
+	organiziton please use these term when you gusy speak with leader  
+	
+4- outlier treatment 
+		outlier also called as anomaly detection 
+		
+5- missing value treatment 
+		in you project how to fill missing value while you do data cleansing 
+		
+if numerical value are missing then we implement -- mean, median, mode strategy 
+if categorical value are missing tehn we implement mode starategy 
