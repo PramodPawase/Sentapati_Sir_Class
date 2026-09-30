@@ -329,3 +329,38 @@ strongly +Ve corelation
 		
 if numerical value are missing then we implement -- mean, median, mode strategy 
 if categorical value are missing tehn we implement mode starategy 
+
+
+
+-----------
+
+
+
+#####Important point
+========================
+
+
+
+
+eda - explarator data analysis
+1.predictive model
+2.classification model
+---
+EDA technqiue 
+---		
+1- variable identification 
+2- univariate anlaysis 
+3- bivariate analysis 
+4- outlier 
+5- missing value treatment 
+6- imputation also called transfomer 
+7- variable createion 
+
+----
+1- Variable identification -->
+	Indepdent variable = non target variable == non predictive variable == x1, x2, x3
+	dependetn variable = target variable == predictive variable = y 
+	
+------
+continuous data vs binary data vs discrete data 	
+regression vs classification vs clustering 
