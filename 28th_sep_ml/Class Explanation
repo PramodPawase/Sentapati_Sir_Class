@@ -364,3 +364,23 @@ EDA technqiue
 ------
 continuous data vs binary data vs discrete data 	
 regression vs classification vs clustering 
+
+
+========================================
+EDA Techniques:
+ - Variable Identification —> Independent and Dependent Variable
+  -Independent = non target Variable = non predictive variable = x1,x2,x3
+  -Dependent = Target Variable = predective variable = y
+   -Regression
+   -Classification
+   -Clustering
+  Continous data vs. binary data    vs. discrete
+  Regression        Vs. Classification vs. Clustering
+ - univariate Analysis - plot graph using 1 variable
+ - bivariate Analysis
+  - correlation
+   - +ve correlation
+   - -ve Correlation
+   - no correlation
+ - outlier identification
+ - Missing Value Treatment  —> Mean, median, mode strategy
