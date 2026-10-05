@@ -3,7 +3,7 @@ import tkinter as tk
 # Create the main application window
 root = tk.Tk()
 root.title("Simple Tkinter App")
-root.geometry("200x100")  # Set window size
+root.geometry("200x300")  # Set window size
 
 # Function to print "Hello, World!" in the console
 def say_hello():

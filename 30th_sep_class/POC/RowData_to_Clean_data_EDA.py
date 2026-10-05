@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np  
-import matplotlib.pyplot as plt #visualizations
+import matplotlib.pyplot as plt # visualization
 import seaborn as sns
 import warnings
 
@@ -134,10 +134,56 @@ print(Clean_array.info())
 print('\n')
 
 print('=============Clean data convert into csv file=====================')
-#Clean_array.to_csv(r"C:/Users/Pramod/OneDrive/AI Python/Senapati Sir/Class Document/30th_sep_class/Clean_data_Pramod.csv",index=False)
+Clean_array.to_csv(r"C:/Users/Pramod/OneDrive/AI Python/Senapati Sir/Class Document/30th_sep_class/Clean_data_Pramod.csv",index=False)
 
 print('\n')
 print('====# EDA TECHNIQUE LETS APPLY======')
 warnings.filterwarnings('ignore')
+
 print(Clean_array['Salary'])
 
+print('\n')
+print('====# Print the graph======')
+
+vis1 = sns.distplot(Clean_array['Salary'])
+print(vis1)
+
+print('\n')
+
+vis2 = plt.hist(Clean_array['Salary'])
+print(vis2)
+
+vis4 = sns.lmplot(data=Clean_array,x = 'Exp', y='Salary')
+print(vis4)
+
+print('\n')
+print(Clean_array)
+
+print('\n')
+
+vis5 = sns.lmplot(data=Clean_array,x = 'Exp', y='Salary', fit_reg = False)
+print(vis5)
+
+print('====================================')
+
+print(Clean_array[:])
+print('\n')
+print(Clean_array[0:6:2])
+
+print('\n')
+print(Clean_array[::-1])
+
+print('============get column base name=====================')
+
+x_iv=Clean_array[['Name','Location','Exp','Salary']]
+print(x_iv)
+
+
+print('\n')
+
+print('============get immutation values=   ====================')
+
+imutation=pd.get_dummies(Clean_array)
+print(imutation)
+
+print('\n')
