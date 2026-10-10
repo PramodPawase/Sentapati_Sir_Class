@@ -11,7 +11,7 @@ import pandas as pd
 
 # import the dataset & divided my dataset into independe & dependent
 
-dataset = pd.read_csv(r"C:\Users\Admin\Desktop\A3MAX\2. A3MAX BATCHES\Agentic AI, Gen AI, FSDS_ 1\4. Nov\5th, 6th- ML\5. Data preprocessing\Data.csv")
+dataset =pd.read_csv(r'C:\Users\Pramod\OneDrive\AI Python\Senapati Sir\Class Document\ML_All_Class\7OCT_ML\Data.csv')
 
 X = dataset.iloc[:, :-1].values	
 
